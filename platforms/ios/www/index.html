@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+Copyright 2014 Matt McGivney Antym LLC
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Matt McGivney Antym LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+
+<head>	
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+	
+	<title>CH Visions</title>
+
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="lib/jquery-mobile/css/jquery.mobile-1.4.0.min.css" />
+	
+	<script type="text/javascript" src="lib/jquery-mobile/js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-mobile-router/js/jquery.mobile.router.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-mobile/js/jquery.mobile-1.4.0.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/rp.touch-slider.js"></script>
+    
+    <script>
+    	$(document).ready(function () {
+        	$('.slider').sliderTouch({
+	        	nav: "arrows", //dots, arrows, both, or none 
+	            prevValue:"<", 
+	            nextValue:">",
+	            autoPlay:false,
+	            interval:6000
+			});
+			$('#takeaphoto').bind('click', function() {
+				navigator.camera.getPicture(onSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.DATA_URL
+				});
+				
+				function onSuccess(imageData) {
+				    var image = document.getElementById('myImage');
+				    image.src = "data:image/jpeg;base64," + imageData;
+				    console.log(image);
+				}
+				
+				function onFail(message) {
+				    alert('Failed because: ' + message);
+				}
+  			});
+		});
+    </script>
+    
+    <style>
+.slider {margin:auto;overflow:hidden;width:100%; height:340px; background-color:#221f1f;}
+.slider .slider-wrap {height:inherit; overflow: hidden;}
+/*.slider .box {margin:70px auto 0; width:100%; height:100%;}*/
+.slider .box .img {
+	max-height: 100%;
+  	max-width: 100%;
+    width: auto;
+}
+.slider nav.dots {position:absolute; width:100%; margin-top: -40px;}
+.slider nav.dots ul {text-align: center; list-style: none; margin: 0; padding: 0;}
+.slider nav.dots ul li{display: inline-block; width: 10px; height: 10px; border-radius: 10px; background: #565656; margin: 0 2px;cursor: pointer;}
+.slider nav.dots ul li.on{background-color:white;}
+
+.slider nav.arrows {position:absolute; width:100%; margin-top: -40px}
+.slider nav.arrows ul {text-align: center; list-style: none; margin: 0; padding: 0;}
+.slider nav.arrows ul li{display: inline-block;  padding: 10px; margin:0 10px; background: #221f1f; cursor: pointer; color:#00d9ff;}
+    </style>
+</head>
+
+<body>
+
+<!--HOME----HOME----HOME----HOME-->
+<div data-role="page" id="home" data-theme="b">
+	
+	<div data-role="header" data-position="fixed">
+		<div id="chvlogo">
+		</div>
+		<a href="#settings" data-icon="gear" class="ui-btn-right"></a>
+	</div>
+
+	<div role="main" class="ui-content" id="home-content">
+		<!--chvlogo div here-->
+		<div id="content">
+			<div class="slider">
+				<div class="slider-wrap">
+					<div><div class="box"><img src="https://lh4.googleusercontent.com/_D9-nzLCi9qU/TNQ2hYNqQEI/AAAAAAAADtI/TcqCdc6N26A/s500/twick_pool_stairs~.jpg"/></div></div>
+					<div><div class="box"><img src="https://lh6.googleusercontent.com/_D9-nzLCi9qU/TNQ2gdP8JYI/AAAAAAAADtI/NU2WBbaXpgU/s500/twick_pool_stairsAndChanginRoom~.jpg"/></div></div>
+					<div><div class="box"><img src="https://lh4.googleusercontent.com/_D9-nzLCi9qU/TNQ2UWpqLgI/AAAAAAAADtI/-OG4z6RxHwA/s500/twick_pool_hall~.jpg"/></div></div>
+				</div>
+			</div><!-- end class="slider" -->
+		</div>
+        <!--div id="imgs">
+            <img src="https://lh4.googleusercontent.com/_D9-nzLCi9qU/TNQ2hYNqQEI/AAAAAAAADtI/TcqCdc6N26A/s500/twick_pool_stairs~.jpg"/>
+            <img src="https://lh6.googleusercontent.com/_D9-nzLCi9qU/TNQ2gdP8JYI/AAAAAAAADtI/NU2WBbaXpgU/s500/twick_pool_stairsAndChanginRoom~.jpg"/>
+            <img src="https://lh4.googleusercontent.com/_D9-nzLCi9qU/TNQ2UWpqLgI/AAAAAAAADtI/-OG4z6RxHwA/s500/twick_pool_hall~.jpg"/!>
+        </div-->
+    </div>
+	
+	<div class="ui-grid-b" class="ui-content">
+		<div class="ui-block-a">
+			<a href="tel:+12406819410" data-role="button">Call Us!</a>
+		</div>
+		<div class="ui-block-b">
+			<a href="#share" data-role="button">Share</a>
+		</div>
+		<div class="ui-block-c">
+			<a href="#more" data-role="button">More...</a>
+		</div>
+	</div><!-- /grid-b -->
+		
+</div><!-- end HOME -->
+
+<!--MORE----MORE----MORE----MORE-->
+<div data-role="page" id="more" data-theme="b">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Links</h1>
+		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div>
+	
+	<div data-role="content" data-theme="b">
+		<div id="chvlogo">
+		</div>
+		<ul data-role="listview">
+			<li><a href="#contact" data-transition="slide">Contact Form</a></li>
+			<li><a href="#locations" data-transition="slide">Locations</a></li>
+			<li><a href="#donate" data-transition="slide">Donate</a></li>
+			<li><a href="#photos" data-transition="slide">Photos</a></li>
+		</ul>
+	</div>
+</div>
+<!-- end MORE -->
+
+
+<!--CONTACT----CONTACT----CONTACT----CONTACT-->
+<div data-role="page" id="contact" data-theme="b">
+	<div data-role="header" data-position="fixed">
+		<h1>Contact Us</h1>
+		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div>
+
+	<div data-role="content" data-theme="b">
+		<div id="chvlogo">
+		</div>
+		<form action="http://chvdesigns.com/app-resources/app-mail.php" method="post">
+			<div data-role="fieldcontain">
+				<label for="title">Email</label>
+				<input type="text" name="email" id="email" required/>
+				<br>
+				<label for="title">First Name</label>
+				<input type="text" name="fname" id="fname" value="" />
+				<br>
+				<label for="title">Last Name</label>
+				<input type="text" name="lname" id="lname" value="" />
+				<br>
+				<label for="title">Company Name</label>
+				<input type="text" name="coname" id="coname" value="" />
+			</div>
+
+			<div data-role="fieldcontain">
+			    <fieldset data-role="controlgroup" data-type="horizontal">
+			     	<legend>Business Classification:</legend>
+			         	<input type="radio" name="bizclass" id="layout-radio-a" value="non-profit" checked="checked"/>
+			         	<label for="layout-radio-a">Non-profit</label>
+			         	<input type="radio" name="bizclass" id="layout-radio-b" value="for-profit"/>
+			         	<label for="layout-radio-b">For profit</label>
+			         	<input type="radio" name="bizclass" id="layout-radio-c" value="other"/>
+			         	<label for="layout-radio-c">Other</label>
+			    </fieldset>
+			</div>
+			
+			<button type="submit" name="submit" value="submit" data-theme="a">Submit</button>
+			</form>
+	</div>
+</div><!-- end CONTACT -->
+
+<!--LOCATIONS----LOCATIONS----LOCATIONS----LOCATIONS-->
+<div data-role="page" id="locations" data-theme="b">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Locations</h1>
+		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div>
+	
+	<div data-role="content" data-theme="b">
+		<div id="chvlogo">
+		</div>
+		<ul data-role="listview">
+			<li data-role="list-divider" role="heading" class="ui-li ui-li-divider ui-bar-d ui-li-has-count">
+				Texas
+				<span class="ui-li-count ui-btn-up-c ui-btn-corner-all">
+					2
+				</span>
+			</li>
+			<li>
+				<img src="img/state_flags/TX.png" alt="TX">
+				<a href="#">
+					<img src="img/state_flags/TX.png" alt="TX">
+					<p class="ui-li-aside ui-li-desc">
+						Zip:<strong>75001</strong>
+					</p>
+					<h3 class="ui-li-heading">Corporate Office</h3>
+						<p class="ui-li-desc">
+							<strong>Dallas HQ</strong>
+						</p>
+						<p class="ui-li-desc">
+							Dallas, Texas
+						</p>
+				</a>
+			</li>
+			<li>
+				<a href="#location-2">
+					<img src="img/state_flags/TX.png" alt="TX">
+					<p class="ui-li-aside ui-li-desc">
+						Zip:<strong>76522</strong>
+					</p>
+					<h3 class="ui-li-heading">Operations</h3>
+						<p class="ui-li-desc">
+							<strong>110 Nelson Dr.</strong>
+						</p>
+						<p class="ui-li-desc">
+							Copperas Cove, Texas
+						</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- end LOCATIONS -->
+
+<!--LOCATION-2----LOCATION-2----LOCATION-2----LOCATION-2-->
+<div data-role="page" id="location-2" data-theme="b"> 
+	<div data-role="header" data-position="fixed">
+		<h1>Operations</h1>
+		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div> 
+	<div data-role="content">
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13661.27510046418!2d-97.89283435714566!3d31.12866072513842!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865ab140ec220fd1%3A0x98c0491ada0130d2!2s110+Nelson+Dr%2C+Copperas+Cove%2C+TX+76522!5e0!3m2!1sen!2sus!4v1406904649491" width="300" height="225" frameborder="0" style="border:0; margin: 0 auto;">
+		</iframe>
+
+		<h3>Operations Office</h3>
+		110 Nelson Dr.<br>
+		Copperas Cove, Texas 76522<br>
+		
+		<a href="#" data-role="button" data-theme="a">Navigate to this Location</a>
+	</div> 
+</div><!-- end LOCATION-2 -->
+
+<!--PHOTOS----PHOTOS----PHOTOS----PHOTOS-->
+<div data-role="page" id="photos" data-theme="b"> 
+	<div data-role="header" data-position="fixed">
+		<h1>Photos</h1>
+		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div>
+	<a href="" id="takeaphoto" data-role="button" data-theme="a">Take a photo</a> 
+</div><!-- end PHOTOS -->
+
+<!--SETTINGS----SETTINGS----SETTINGS----SETTINGS-->
+<div data-role="page" id="settings" data-theme="b">
+	<div data-role="header" data-position="fixed">
+		<h1>Settings</h1>
+		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div>
+
+	<div role="main" class="ui-content">
+		<div id="chvlogo">
+		</div>
+		<h2>Settings</h2>
+	</div>
+	
+</div><!--END SETTINGS-->
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="lib/fastclick/js/fastclick.js"></script>
+<script type="text/javascript" src="lib/handlebars/js/handlebars-v1.3.0.js"></script>
+
+<script type="text/javascript">
+	antym.app.initialize();
+</script>
+
+</body>
+</html>

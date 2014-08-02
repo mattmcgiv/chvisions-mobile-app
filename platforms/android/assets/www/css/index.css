@@ -1,0 +1,58 @@
+/*
+App-o-Mat jQuery Mobile Cordova starter template
+Copyright 2014 Lou Franco
+https://github.com/app-o-mat/jqm-cordova-template-project
+http://app-o-mat.com
+
+MIT License
+https://github.com/app-o-mat/jqm-cordova-template-project/LICENSE.md
+*/
+
+/* Make the webviews act less like a browser, and more like an app*/
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+}
+
+#home {
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#more {
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#chvlogo {
+	background-image: url('../img/chvisions-logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 100px;
+}
+
+#chvmascot {
+	background-image: url('../img/mascot.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 300px;
+}
+
+.ui-link {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ui-dialog-contain {
+	width: 92.5%;
+	max-width: 500px;
+	margin: 10% auto 15px auto;
+	padding: 0;
+	position: relative;
+	top: -15px;
+}

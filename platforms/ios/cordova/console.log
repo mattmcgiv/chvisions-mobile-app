@@ -1,0 +1,160 @@
+objc[2807]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-31 09:56:30.372 Platform 2[2807:70b] Cannot find executable for CFBundle 0xa597610 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-31 09:56:30.382 Platform 2[2807:70b] Cannot find executable for CFBundle 0xa29f430 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-31 09:56:30.427 Platform 2[2807:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-31 09:56:30.436 Platform 2[2807:70b] Unlimited access to network resources
+2014-07-31 09:56:30.439 Platform 2[2807:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-31 09:56:30.494 Platform 2[2807:70b] [CDVTimer][splashscreen] 32.697976ms
+2014-07-31 09:56:30.498 Platform 2[2807:70b] [CDVTimer][statusbar] 3.431022ms
+2014-07-31 09:56:30.498 Platform 2[2807:70b] [CDVTimer][TotalPluginStartup] 37.232041ms
+2014-07-31 09:56:30.654 Platform 2[2807:70b] Resetting plugins due to page load.
+2014-07-31 09:56:30.931 Platform 2[2807:70b] Finished load of: file:///Users/matthewmcgivney/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1ABA2134-A2D4-457C-A922-F0035A30F0CE/Platform%202.app/www/index.html
+Terminating in response to SpringBoard's termination.
+objc[3266]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-31 10:32:38.099 Platform 2[3266:70b] Cannot find executable for CFBundle 0xa48e160 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-31 10:32:38.107 Platform 2[3266:70b] Cannot find executable for CFBundle 0xa28c100 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-31 10:32:38.133 Platform 2[3266:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-31 10:32:38.142 Platform 2[3266:70b] Unlimited access to network resources
+2014-07-31 10:32:38.145 Platform 2[3266:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-31 10:32:38.172 Platform 2[3266:70b] [CDVTimer][splashscreen] 8.855999ms
+2014-07-31 10:32:38.176 Platform 2[3266:70b] [CDVTimer][statusbar] 3.342986ms
+2014-07-31 10:32:38.176 Platform 2[3266:70b] [CDVTimer][TotalPluginStartup] 13.267040ms
+2014-07-31 10:32:38.325 Platform 2[3266:70b] Resetting plugins due to page load.
+2014-07-31 10:32:38.613 Platform 2[3266:70b] Finished load of: file:///Users/matthewmcgivney/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1ABA2134-A2D4-457C-A922-F0035A30F0CE/Platform%202.app/www/index.html
+objc[3808]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-31 10:38:15.735 Antym App[3808:70b] Cannot find executable for CFBundle 0xa56fcc0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-31 10:38:15.742 Antym App[3808:70b] Cannot find executable for CFBundle 0xa27eec0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-31 10:38:15.797 Antym App[3808:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-31 10:38:15.806 Antym App[3808:70b] Unlimited access to network resources
+2014-07-31 10:38:15.810 Antym App[3808:70b] Fix applied for database locations?: YES
+2014-07-31 10:38:15.812 Antym App[3808:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-31 10:38:15.843 Antym App[3808:70b] [CDVTimer][splashscreen] 10.425985ms
+2014-07-31 10:38:15.849 Antym App[3808:70b] [CDVTimer][statusbar] 5.268991ms
+2014-07-31 10:38:15.849 Antym App[3808:70b] [CDVTimer][TotalPluginStartup] 16.772032ms
+2014-07-31 10:38:16.036 Antym App[3808:70b] Resetting plugins due to page load.
+2014-07-31 10:38:16.312 Antym App[3808:70b] Finished load of: file:///Users/matthewmcgivney/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1E633885-CEFE-4BF5-9057-9F126371E6B7/Antym%20App.app/www/index.html
+objc[4334]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-31 11:02:48.151 Antym App[4334:70b] Cannot find executable for CFBundle 0xa391610 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-31 11:02:48.159 Antym App[4334:70b] Cannot find executable for CFBundle 0xa5960e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-31 11:02:48.197 Antym App[4334:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-31 11:02:48.224 Antym App[4334:70b] Unlimited access to network resources
+2014-07-31 11:02:48.229 Antym App[4334:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-31 11:02:48.457 Antym App[4334:70b] [CDVTimer][splashscreen] 57.855010ms
+2014-07-31 11:02:48.463 Antym App[4334:70b] [CDVTimer][statusbar] 5.629003ms
+2014-07-31 11:02:48.463 Antym App[4334:70b] [CDVTimer][TotalPluginStartup] 64.625025ms
+2014-07-31 11:02:48.609 Antym App[4334:70b] Resetting plugins due to page load.
+2014-07-31 11:02:48.964 Antym App[4334:70b] Finished load of: file:///Users/matthewmcgivney/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1E633885-CEFE-4BF5-9057-9F126371E6B7/Antym%20App.app/www/index.html
+objc[4686]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-31 11:03:45.414 Antym App[4686:70b] Cannot find executable for CFBundle 0xa23e440 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-31 11:03:45.421 Antym App[4686:70b] Cannot find executable for CFBundle 0xa258cc0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-31 11:03:45.460 Antym App[4686:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-31 11:03:45.469 Antym App[4686:70b] Unlimited access to network resources
+2014-07-31 11:03:45.473 Antym App[4686:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-31 11:03:45.505 Antym App[4686:70b] [CDVTimer][splashscreen] 9.672999ms
+2014-07-31 11:03:45.511 Antym App[4686:70b] [CDVTimer][statusbar] 5.486965ms
+2014-07-31 11:03:45.512 Antym App[4686:70b] [CDVTimer][TotalPluginStartup] 16.575992ms
+2014-07-31 11:03:45.687 Antym App[4686:70b] Resetting plugins due to page load.
+2014-07-31 11:03:46.028 Antym App[4686:70b] Finished load of: file:///Users/matthewmcgivney/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1E633885-CEFE-4BF5-9057-9F126371E6B7/Antym%20App.app/www/index.html
+objc[5092]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-31 11:12:21.253 Antym App[5092:70b] Cannot find executable for CFBundle 0xa5653e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-31 11:12:21.261 Antym App[5092:70b] Cannot find executable for CFBundle 0xa497620 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-31 11:12:21.301 Antym App[5092:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-31 11:12:21.310 Antym App[5092:70b] Unlimited access to network resources
+2014-07-31 11:12:21.313 Antym App[5092:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-31 11:12:21.357 Antym App[5092:70b] [CDVTimer][splashscreen] 20.736992ms
+2014-07-31 11:12:21.363 Antym App[5092:70b] [CDVTimer][statusbar] 5.068958ms
+2014-07-31 11:12:21.364 Antym App[5092:70b] [CDVTimer][TotalPluginStartup] 27.248025ms
+2014-07-31 11:12:21.489 Antym App[5092:70b] Resetting plugins due to page load.
+2014-07-31 11:12:21.861 Antym App[5092:70b] Finished load of: file:///Users/matthewmcgivney/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1E633885-CEFE-4BF5-9057-9F126371E6B7/Antym%20App.app/www/index.html
+2014-07-31 11:12:25.299 Antym App[5092:70b] Failed to load webpage with error: The URL can’t be shown
+objc[5468]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-31 11:16:34.679 Antym App[5468:70b] Cannot find executable for CFBundle 0xa2a1490 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-31 11:16:34.688 Antym App[5468:70b] Cannot find executable for CFBundle 0xa480e50 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-31 11:16:34.723 Antym App[5468:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-31 11:16:34.732 Antym App[5468:70b] Unlimited access to network resources
+2014-07-31 11:16:34.737 Antym App[5468:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-31 11:16:34.767 Antym App[5468:70b] [CDVTimer][splashscreen] 9.654999ms
+2014-07-31 11:16:34.773 Antym App[5468:70b] [CDVTimer][statusbar] 5.185008ms
+2014-07-31 11:16:34.774 Antym App[5468:70b] [CDVTimer][TotalPluginStartup] 15.962958ms
+2014-07-31 11:16:34.938 Antym App[5468:70b] Resetting plugins due to page load.
+2014-07-31 11:16:35.267 Antym App[5468:70b] Finished load of: file:///Users/matthewmcgivney/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1E633885-CEFE-4BF5-9057-9F126371E6B7/Antym%20App.app/www/index.html
+Terminating in response to SpringBoard's termination.
+objc[5824]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-31 11:17:23.560 Antym App[5824:70b] Cannot find executable for CFBundle 0xa546bc0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-31 11:17:23.583 Antym App[5824:70b] Cannot find executable for CFBundle 0xa428de0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-31 11:17:23.627 Antym App[5824:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-31 11:17:23.636 Antym App[5824:70b] Unlimited access to network resources
+2014-07-31 11:17:23.639 Antym App[5824:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-31 11:17:23.684 Antym App[5824:70b] [CDVTimer][splashscreen] 22.504985ms
+2014-07-31 11:17:23.689 Antym App[5824:70b] [CDVTimer][statusbar] 5.214989ms
+2014-07-31 11:17:23.690 Antym App[5824:70b] [CDVTimer][TotalPluginStartup] 28.829038ms
+2014-07-31 11:17:23.873 Antym App[5824:70b] Resetting plugins due to page load.
+2014-07-31 11:17:24.146 Antym App[5824:70b] Finished load of: file:///Users/matthewmcgivney/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1E633885-CEFE-4BF5-9057-9F126371E6B7/Antym%20App.app/www/index.html
+2014-07-31 11:17:31.363 Antym App[5824:70b] Failed to load webpage with error: The URL can’t be shown
+Terminating in response to SpringBoard's termination.
+objc[6180]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-31 11:18:22.496 Antym App[6180:70b] Cannot find executable for CFBundle 0xa287a90 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-31 11:18:22.503 Antym App[6180:70b] Cannot find executable for CFBundle 0xa29d8f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-31 11:18:22.540 Antym App[6180:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-31 11:18:22.549 Antym App[6180:70b] Unlimited access to network resources
+2014-07-31 11:18:22.552 Antym App[6180:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-31 11:18:22.583 Antym App[6180:70b] [CDVTimer][splashscreen] 9.977996ms
+2014-07-31 11:18:22.589 Antym App[6180:70b] [CDVTimer][statusbar] 5.235970ms
+2014-07-31 11:18:22.590 Antym App[6180:70b] [CDVTimer][TotalPluginStartup] 16.415000ms
+2014-07-31 11:18:22.743 Antym App[6180:70b] Resetting plugins due to page load.
+2014-07-31 11:18:23.048 Antym App[6180:70b] Finished load of: file:///Users/matthewmcgivney/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1E633885-CEFE-4BF5-9057-9F126371E6B7/Antym%20App.app/www/index.html
+Terminating in response to SpringBoard's termination.
