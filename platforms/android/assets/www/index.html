@@ -51,7 +51,7 @@ THE SOFTWARE.
 	            autoPlay:false,
 	            interval:6000
 			});
-			$('#takeaphoto').bind('click', function() {
+			$('#take-a-photo').bind('click', function() {
 				navigator.camera.getPicture(onSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.DATA_URL
 				});
 				
@@ -143,7 +143,7 @@ THE SOFTWARE.
 	<div data-role="content" data-theme="b">
 		<div id="chvlogo">
 		</div>
-		<ul data-role="listview">
+		<ul id="more-list" data-role="listview">
 			<li><a href="#contact" data-transition="slide">Contact Form</a></li>
 			<li><a href="#locations" data-transition="slide">Locations</a></li>
 			<li><a href="#donate" data-transition="slide">Donate</a></li>
@@ -278,8 +278,20 @@ THE SOFTWARE.
 		<h1>Photos</h1>
 		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
 		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div> 
+	<div role="main" class="ui-content">
+		<div id="chvlogo">
+		</div>
+		<div id="photo-gallery">
+			<img id="photo-gallery"src="img/computer-desk.png" alt="computer-desk" width="202" height="202">
+		</div>
+		<div id="caption">
+			Caption:<br>
+			This is a picture I took of my computer while working on a CHV Project.
+		</div>
+		
+		<a href="" id="take-a-photo" data-role="button" data-theme="a">Add a new community photo!</a>
 	</div>
-	<a href="" id="takeaphoto" data-role="button" data-theme="a">Take a photo</a> 
 </div><!-- end PHOTOS -->
 
 <!--SETTINGS----SETTINGS----SETTINGS----SETTINGS-->
@@ -305,6 +317,9 @@ THE SOFTWARE.
 <script type="text/javascript">
 	antym.app.initialize();
 </script>
+
+<!--The following line is for LiveReload and should be deleted before production.-->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 </body>
 </html>

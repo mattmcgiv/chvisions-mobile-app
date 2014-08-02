@@ -56,3 +56,18 @@ body {
 	position: relative;
 	top: -15px;
 }
+
+#photo-gallery {
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#take-a-photo {
+	margin-top: 60px;
+}
+
+#more-list {
+	margin-top: 60px;
+}
