@@ -90,6 +90,25 @@ THE SOFTWARE.
 
 <body>
 
+	<!-- Facebook SDK init -->
+	<script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1502909336611598',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script><!-- end Facebook SDK init -->
+    
 <!--HOME----HOME----HOME----HOME-->
 <div data-role="page" id="home" data-theme="b">
 	
@@ -150,6 +169,26 @@ THE SOFTWARE.
 			<li><a href="#photos" data-transition="slide">Photos</a></li>
 			<li><a href="#upload" data-transition="slide">Upload</a></li>
 			
+		</ul>
+	</div>
+</div>
+<!-- end MORE -->
+
+<!--MORE----MORE----MORE----MORE-->
+<div data-role="page" id="share" data-theme="b">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Share</h1>
+		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div>
+	
+	<div data-role="content" data-theme="b">
+		<div id="chvlogo">
+		</div>
+		<ul id="more-list" data-role="listview">
+			<li><a href="#facebook" data-transition="slide">Facebook</a></li>
+			<li><a href="#twitter" data-transition="slide">Twitter</a></li>			
 		</ul>
 	</div>
 </div>
@@ -338,6 +377,40 @@ THE SOFTWARE.
 	</div>
 	
 </div><!--END SETTINGS-->
+
+<!--FACEBOOK----FACEBOOK----FACEBOOK----FACEBOOK-->
+<div data-role="page" id="facebook" data-theme="b">
+	<div data-role="header" data-position="fixed">
+		<h1>Facebook</h1>
+		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div>
+
+	<div role="main" class="ui-content">
+		<div id="chvlogo">
+		</div>
+		<h2>Click the button to share to Facebook.</h2>
+		<div class="fb-share-button" data-href="http://chvdesigns.com/app/" data-width="200"></div>
+	</div>
+	
+</div><!--END FACEBOOK-->
+
+<!--TWITTER----TWITTER----TWITTER----TWITTER-->
+<div data-role="page" id="twitter" data-theme="b">
+	<div data-role="header" data-position="fixed">
+		<h1>Twitter</h1>
+		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div>
+
+	<div role="main" class="ui-content">
+		<div id="chvlogo">
+		</div>
+		<h2>Click the button to share to Twitter.</h2>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://chvdesigns.com/app" data-text="Check out this app!" data-via="chvisions" data-size="large" data-dnt="true">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	
+</div><!--END TWITTER-->
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="lib/fastclick/js/fastclick.js"></script>
