@@ -148,6 +148,8 @@ THE SOFTWARE.
 			<li><a href="#locations" data-transition="slide">Locations</a></li>
 			<li><a href="#donate" data-transition="slide">Donate</a></li>
 			<li><a href="#photos" data-transition="slide">Photos</a></li>
+			<li><a href="#upload" data-transition="slide">Upload</a></li>
+			
 		</ul>
 	</div>
 </div>
@@ -293,6 +295,34 @@ THE SOFTWARE.
 		<a href="" id="take-a-photo" data-role="button" data-theme="a">Add a new community photo!</a>
 	</div>
 </div><!-- end PHOTOS -->
+
+<!--UPLOAD----UPLOAD----UPLOAD----UPLOAD-->
+<div data-role="page" id="upload" data-theme="b"> 
+	<div data-role="header" data-position="fixed">
+		<h1>Upload</h1>
+		<a href="#home" data-icon="home" class="ui-btn-left">Home</a>
+		<a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
+	</div> 
+	<div role="main" class="ui-content">
+		<div id="chvlogo">
+		</div>
+		<div id="photo-gallery">
+			<img id="photo-gallery"src="img/computer-desk.png" alt="computer-desk" width="202" height="202">
+		</div>
+		<div id="caption">
+			Caption:<br>
+			This is a picture I took of my computer while working on a CHV Project.
+		</div>
+		
+		<form action="http://localhost:8888/appserv/photo-uploader.php" method="post" enctype="multipart/form-data">
+			<label for="file">Filename:</label>
+			<input type="file" name="file" id="file"><br>
+			<input data-role="button" type="submit" name="submit" value="Submit">
+		</form>
+		
+		
+	</div>
+</div><!-- end UPLOAD -->
 
 <!--SETTINGS----SETTINGS----SETTINGS----SETTINGS-->
 <div data-role="page" id="settings" data-theme="b">
