@@ -43,7 +43,10 @@
 /Users/matthewmcgivney/Documents/plat2/platforms/android/assets/www/img/background.png \
 /Users/matthewmcgivney/Documents/plat2/platforms/android/assets/www/img/chvisions-logo.png \
 /Users/matthewmcgivney/Documents/plat2/platforms/android/assets/www/img/computer-desk.png \
+/Users/matthewmcgivney/Documents/plat2/platforms/android/assets/www/img/iphone.jpg \
 /Users/matthewmcgivney/Documents/plat2/platforms/android/assets/www/img/mascot.png \
+/Users/matthewmcgivney/Documents/plat2/platforms/android/assets/www/img/meeting.jpg \
+/Users/matthewmcgivney/Documents/plat2/platforms/android/assets/www/img/meeting2.jpg \
 /Users/matthewmcgivney/Documents/plat2/platforms/android/assets/www/img/state_flags \
 /Users/matthewmcgivney/Documents/plat2/platforms/android/assets/www/img/state_flags/AK.png \
 /Users/matthewmcgivney/Documents/plat2/platforms/android/assets/www/img/state_flags/AL.png \
