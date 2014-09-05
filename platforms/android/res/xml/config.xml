@@ -28,4 +28,7 @@
     <access origin="*" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#59595b" />
+    <feature name="PushNotification">
+        <param name="android-package" onload="true" value="com.pushwoosh.plugin.pushnotifications.PushNotifications" />
+    </feature>
 </widget>

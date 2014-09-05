@@ -37,7 +37,8 @@ THE SOFTWARE.
 	<!-- END App Details -->
 
     <content src="index.html" />
-    <access origin="*" />
+    <access origin="*.chvisions.com" />
+    <access origin="*.pushwoosh.com" />
 
 	<preference name="StatusBarOverlaysWebView" value="false"/>
     <preference name="StatusBarBackgroundColor" value="#59595b"/>
