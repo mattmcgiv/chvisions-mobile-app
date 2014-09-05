@@ -44,6 +44,7 @@
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/background.png \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/chvisions-logo.png \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/computer-desk.png \
+/vagrant/chvisions-mobile-app/platforms/android/assets/www/img/emblem.png \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/iphone.jpg \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/mascot.png \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/meeting.jpg \
