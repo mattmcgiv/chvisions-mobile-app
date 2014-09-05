@@ -1,2 +1,2 @@
-/Users/matthewmcgivney/Documents/plat2/platforms/android/ant-build/AndroidManifest.xml : \
-/Users/matthewmcgivney/Documents/plat2/platforms/android/AndroidManifest.xml \
+/vagrant/chvisions-mobile-app/platforms/android/ant-build/AndroidManifest.xml : \
+/vagrant/chvisions-mobile-app/platforms/android/AndroidManifest.xml \
