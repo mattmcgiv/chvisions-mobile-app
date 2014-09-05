@@ -43,6 +43,14 @@ body {
 	height: 300px;
 }
 
+#emblem {
+	background-image: url('../img/emblem.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 300px;
+}
+
 .ui-link {
 	margin-left: auto;
 	margin-right: auto;
