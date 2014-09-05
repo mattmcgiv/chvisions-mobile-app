@@ -39,6 +39,7 @@
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/lib \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/scripts \
+/vagrant/chvisions-mobile-app/platforms/android/assets/www/css/font-awesome.min.css \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/css/index.css \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/background.png \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/chvisions-logo.png \
