@@ -41,17 +41,10 @@ THE SOFTWARE.
 	<script type="text/javascript" src="lib/jquery-mobile-router/js/jquery.mobile.router.min.js"></script>
 	<script type="text/javascript" src="lib/jquery-mobile/js/jquery.mobile-1.4.0.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
-	<script type="text/javascript" src="js/rp.touch-slider.js"></script>
     
     <script>
     	$(document).ready(function () {
-        	$('.slider').sliderTouch({
-	        	nav: "arrows", //dots, arrows, both, or none 
-	            prevValue:"<", 
-	            nextValue:">",
-	            autoPlay:false,
-	            interval:6000
-			});
+        	
 			$('#take-a-photo').bind('click', function() {
 				navigator.camera.getPicture(onSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.DATA_URL
 				});
@@ -69,24 +62,6 @@ THE SOFTWARE.
 		});
     </script>
     
-    <style>
-.slider {margin:auto;overflow:hidden;width:100%; height:340px; background-color:#221f1f;}
-.slider .slider-wrap {height:inherit; overflow: hidden;}
-/*.slider .box {margin:70px auto 0; width:100%; height:100%;}*/
-.slider .box .img {
-	max-height: 100%;
-  	max-width: 100%;
-    width: auto;
-}
-.slider nav.dots {position:absolute; width:100%; margin-top: -40px;}
-.slider nav.dots ul {text-align: center; list-style: none; margin: 0; padding: 0;}
-.slider nav.dots ul li{display: inline-block; width: 10px; height: 10px; border-radius: 10px; background: #565656; margin: 0 2px;cursor: pointer;}
-.slider nav.dots ul li.on{background-color:white;}
-
-.slider nav.arrows {position:absolute; width:100%; margin-top: -40px}
-.slider nav.arrows ul {text-align: center; list-style: none; margin: 0; padding: 0;}
-.slider nav.arrows ul li{display: inline-block;  padding: 10px; margin:0 10px; background: #221f1f; cursor: pointer; color:#00d9ff;}
-    </style>
 </head>
 
 <body>
@@ -136,19 +111,8 @@ THE SOFTWARE.
 	<div role="main" class="ui-content" id="home-content">
 		<!--chvlogo div here-->
 		<div id="content">
-			<div class="slider">
-				<div class="slider-wrap">
-					<div><div class="box"></div></div>
-					<div><div class="box"></div></div>
-					<div><div class="box"></div></div>
-				</div>
-			</div><!-- end class="slider" -->
+			
 		</div>
-        <!--div id="imgs">
-            <img src="https://lh4.googleusercontent.com/_D9-nzLCi9qU/TNQ2hYNqQEI/AAAAAAAADtI/TcqCdc6N26A/s500/twick_pool_stairs~.jpg"/>
-            <img src="https://lh6.googleusercontent.com/_D9-nzLCi9qU/TNQ2gdP8JYI/AAAAAAAADtI/NU2WBbaXpgU/s500/twick_pool_stairsAndChanginRoom~.jpg"/>
-            <img src="https://lh4.googleusercontent.com/_D9-nzLCi9qU/TNQ2UWpqLgI/AAAAAAAADtI/-OG4z6RxHwA/s500/twick_pool_hall~.jpg"/!>
-        </div-->
     </div>
 	
 	<div class="ui-grid-b" class="ui-content">
@@ -183,7 +147,6 @@ THE SOFTWARE.
 			<li><a href="#donate" data-transition="slide">Donate</a></li>
 			<li><a href="#photos" data-transition="slide">Photos</a></li>
 			<li><a href="#upload" data-transition="slide">Upload</a></li>
-			
 		</ul>
 	</div>
 </div>
