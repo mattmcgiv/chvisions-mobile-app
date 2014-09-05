@@ -336,10 +336,13 @@
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/lib/jquery-mobile-router/js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/lib/jquery-mobile-router/js/jquery.mobile.router.js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/lib/jquery-mobile-router/js/jquery.mobile.router.min.js \
+/vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/com.pushwoosh.plugins.pushwoosh \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.dialogs \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.statusbar \
+/vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/com.pushwoosh.plugins.pushwoosh/www \
+/vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/com.pushwoosh.plugins.pushwoosh/www/PushNotification.js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/Camera.js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraConstants.js \

@@ -64,8 +64,13 @@ THE SOFTWARE.
     
 </head>
 
-<body>
+<body onload="pushwoosh_init();">
 
+	<script>
+		function init() {
+	    	document.addEventListener("deviceready", antym.app.initPushwoosh, true);
+		}
+	</script>
 	<!-- Facebook SDK init -->
 	<script>
       window.fbAsyncInit = function() {
