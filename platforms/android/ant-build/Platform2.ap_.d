@@ -41,6 +41,7 @@
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/scripts \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/css/font-awesome.min.css \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/css/index.css \
+/vagrant/chvisions-mobile-app/platforms/android/assets/www/img/110_Nelson.png \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/background.png \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/chvisions-logo.png \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/computer-desk.png \
@@ -104,6 +105,7 @@
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/state_flags/WI.png \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/state_flags/WV.png \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/img/state_flags/WY.png \
+/vagrant/chvisions-mobile-app/platforms/android/assets/www/js/index-old.js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/js/index.js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/js/rp.touch-slider.js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/lib/fastclick \
@@ -336,10 +338,13 @@
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/lib/jquery-mobile-router/js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/lib/jquery-mobile-router/js/jquery.mobile.router.js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/lib/jquery-mobile-router/js/jquery.mobile.router.min.js \
+/vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/com.pushwoosh.plugins.pushwoosh \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.dialogs \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.statusbar \
+/vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/com.pushwoosh.plugins.pushwoosh/www \
+/vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/com.pushwoosh.plugins.pushwoosh/www/PushNotification.js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/Camera.js \
 /vagrant/chvisions-mobile-app/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraConstants.js \

@@ -31,7 +31,7 @@ var antym = {};
 antym.app = {
 	
     initialize: function() {
-    	document.addEventListener("deviceready", initPushwoosh, true);
+    	document.addEventListener("deviceready", this.initPushwoosh, true);
 		document.addEventListener('deviceready', this.onDeviceReady, false);
 		
     },
@@ -65,7 +65,7 @@ antym.app = {
 	    });
 	 
 	    //initialize Pushwoosh with projectid: "GOOGLE_PROJECT_ID", appid : "PUSHWOOSH_APP_ID". This will trigger all pending push notifications on start.
-	    pushNotification.onDeviceReady({ projectid: "compact-moment-694", appid : "F97B3-4C351" });
+	    pushNotification.onDeviceReady({ projectid: "352022951804", appid : "F97B3-4C351" });
 	 
 	    //register for pushes
 	    pushNotification.registerDevice(
