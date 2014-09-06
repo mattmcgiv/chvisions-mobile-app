@@ -1,11 +1,18 @@
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes.dex : \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/antym/plat2/BuildConfig.class \
+/vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/antym/plat2/Manifest$permission.class \
+/vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/antym/plat2/Manifest.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/antym/plat2/Platform2.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/antym/plat2/R$attr.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/antym/plat2/R$drawable.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/antym/plat2/R$string.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/antym/plat2/R$xml.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/antym/plat2/R.class \
+/vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/pushwoosh/plugin/pushnotifications/PushNotifications$1.class \
+/vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/pushwoosh/plugin/pushnotifications/PushNotifications$1GetTagsListenerImpl.class \
+/vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/pushwoosh/plugin/pushnotifications/PushNotifications$2.class \
+/vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/pushwoosh/plugin/pushnotifications/PushNotifications$3.class \
+/vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/com/pushwoosh/plugin/pushnotifications/PushNotifications.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/org/apache/cordova/camera/CameraLauncher.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/org/apache/cordova/camera/FileHelper.class \
@@ -32,3 +39,4 @@
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$2.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar.class \
 /vagrant/chvisions-mobile-app/platforms/android/ant-build/dexedLibs/classes-8bfaf2e2fa42c7bd43ac4b1970350a3e.jar \
+/vagrant/chvisions-mobile-app/platforms/android/ant-build/dexedLibs/Pushwoosh-1d0647cc0912c87dc56514a5506df989.jar \

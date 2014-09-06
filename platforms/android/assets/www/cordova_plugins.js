@@ -55,6 +55,13 @@ module.exports = [
         "clobbers": [
             "CameraPopoverHandle"
         ]
+    },
+    {
+        "file": "plugins/com.pushwoosh.plugins.pushwoosh/www/PushNotification.js",
+        "id": "com.pushwoosh.plugins.pushwoosh.PushNotification",
+        "clobbers": [
+            "plugins.pushNotification"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -64,7 +71,8 @@ module.exports.metadata =
     "org.apache.cordova.dialogs": "0.2.8",
     "org.apache.cordova.splashscreen": "0.3.1",
     "org.apache.cordova.statusbar": "0.1.6",
-    "org.apache.cordova.camera": "0.3.0"
+    "org.apache.cordova.camera": "0.3.0",
+    "com.pushwoosh.plugins.pushwoosh": "3.2.0"
 }
 // BOTTOM OF METADATA
 });
