@@ -35,7 +35,6 @@ THE SOFTWARE.
 
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="lib/jquery-mobile/css/jquery.mobile-1.4.0.min.css" />
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	
 	<script type="text/javascript" src="lib/jquery-mobile/js/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="lib/jquery-mobile-router/js/jquery.mobile.router.min.js"></script>
@@ -65,25 +64,25 @@ THE SOFTWARE.
 </head>
 
 <body>
-
-	<!-- Facebook SDK init -->
+<div id="fb-root"></div>
 	<script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '1502909336611598',
-          xfbml      : true,
-          version    : 'v2.0'
-        });
-      };
+		window.fbAsyncInit = function() {
+        	FB.init({
+				appId      : '1502909336611598',
+				xfbml      : false,
+				version    : 'v2.0'
+				});
+			};
 
       (function(d, s, id){
          var js, fjs = d.getElementsByTagName(s)[0];
          if (d.getElementById(id)) {return;}
          js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
+         js.src = "http://connect.facebook.net/en_US/sdk/debug.js";
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
-    </script><!-- end Facebook SDK init -->
+    </script>
+       
     
 <!--HOME----HOME----HOME----HOME-->
 <div data-role="page" id="home" data-theme="b">
@@ -106,9 +105,9 @@ THE SOFTWARE.
 	<div role="main" class="ui-content" id="home-content">
 		<div id="content">
 			<div id="emblem"></div>
-				<a class="ui-btn ui-corner-all" href="tel:+12406819410" data-role="button">Call Us!</a>
+				<a class="ui-btn ui-corner-all" href="tel:+19722904707" data-role="button">Call Us!</a>
 				<a class="ui-btn ui-corner-all" href="#share" data-role="button">Share via Social Media</a>
-				<a class="ui-btn ui-corner-all" href="#more" data-role="button">Visit our Website</a>
+				<a class="ui-btn ui-corner-all" href="http://chvisions.com" data-role="button">Visit our Website</a>
 		</div>
     </div>
 	
@@ -221,13 +220,12 @@ THE SOFTWARE.
 				</span>
 			</li>
 			<li>
-				<img src="img/state_flags/TX.png" alt="TX">
 				<a href="#">
 					<img src="img/state_flags/TX.png" alt="TX">
 					<p class="ui-li-aside ui-li-desc">
 						Zip:<strong>75001</strong>
 					</p>
-					<h3 class="ui-li-heading">Corporate Office - Coming Soon!</h3>
+					<h3 class="ui-li-heading">Coming Soon!</h3>
 						<p class="ui-li-desc">
 							<strong>Dallas HQ</strong>
 						</p>
@@ -264,7 +262,7 @@ THE SOFTWARE.
 	</div> 
 	<div data-role="content">
 
-		<a href="https://www.google.com/maps/place/110+Nelson+Dr,+Copperas+Cove,+TX+76522/@31.1320266,-97.8939072,17z/data=!4m2!3m1!1s0x865ab140ec220fd1:0x98c0491ada0130d2"><img src="img/110_Nelson.png" alt="110_Nelson" width="212" height="293"></a>
+		<a href="https://www.google.com/maps/place/110+Nelson+Dr,+Copperas+Cove,+TX+76522/@31.1320266,-97.8939072,17z/data=!4m2!3m1!1s0x865ab140ec220fd1:0x98c0491ada0130d2"><img src="img/110_Nelson.png" alt="110_Nelson" width="212" height="293" style="display: block; margin: 0px auto;"></a>
 		<h3>Operations Office</h3>
 		110 Nelson Dr.<br>
 		Copperas Cove, Texas 76522<br>
@@ -332,7 +330,7 @@ THE SOFTWARE.
 		<div id="chvlogo">
 		</div>
 		<h2>Click the button to share to Facebook.</h2>
-		<div class="fb-share-button" data-href="http://chvdesigns.com/app/" data-width="200">.</div>
+		<div class="fb-share-button" data-href="http://chvisions.com">.</div>
 	</div>
 	
 </div><!--END FACEBOOK-->
@@ -348,7 +346,7 @@ THE SOFTWARE.
 		<div id="chvlogo">
 		</div>
 		<h2>Click the button to share to Twitter.</h2>
-		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://chvdesigns.com/app" data-text="Check out this app!" data-via="chvisions" data-size="large" data-dnt="true">Tweet</a>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://chvisions.com/" data-via="chvisions" data-size="large">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 	
 </div><!--END TWITTER-->
@@ -359,10 +357,6 @@ THE SOFTWARE.
 
 <script type="text/javascript">
 	antym.app.initialize();
-</script>
-
-<!--The following line is for LiveReload and should be deleted before production.-->
-<script>//document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
 </script>
 
 </body>

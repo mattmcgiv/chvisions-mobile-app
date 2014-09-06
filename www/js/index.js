@@ -47,7 +47,7 @@ antym.app = {
     onBackKeyDown: function () {
     	console.log('Back key pressed. Source: index.js.');
     	//window.location.href = "#home";
-    }    
+    },    
     
     initPushwoosh: function () {
 	    var pushNotification = window.plugins.pushNotification;
