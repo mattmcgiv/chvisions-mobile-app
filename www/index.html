@@ -59,44 +59,74 @@ THE SOFTWARE.
 				}
   			});
   			
-  			$('#contact-submit').bind("click", function(e) {
-	            console.log("$ registered click.");
-	            //e.preventDefault();
-	            console.log("Setting var data.");
-	            var data={
-	                    email: email,
-	                    fname: fname,
-	                    lname: lname,
-	                    coname: coname           
-	                   };
-				console.log("calling sendToServer()");	                   
-	            function sendToServer() {
-	                return $.ajax({
-	                    url: 'http://chvdesigns.com/app-resources/app-mail.php',
-	                    type: "POST",
-	                    dataType: "xml",
-	                    data: data
-	                });
-	            }
-	            console.log("calling .done");
-	            sendToServer().done(handleSuccess);
-	            console.log("calling .fail");
-	            sendToServer().fail(handleError);
-	            function handleSuccess(data /* , textStatus, jqXHR */ ) {
-	                console.log("inside handleSuccess");
-	                console.log("Message successfully sent");
-	            }
-	            function handleError(data , textStatus, jqXHR  ) {
-	            	console.log("inside handleError");
-	                console.log("Error when sending the message : ");
-	                console.log(data);
-	                console.log(data.response);
-	                console.log(textStatus);
-	                console.log(jqXHR);
-	            }
-			console.log("contact submit function complete");
+  			$('#contact-form').submit(function(event) {
+						// immediately disable the submit button to prevent double submits
+						$('#contact-submit').attr("disabled", "disabled");
+						
+						var email = $('#email').val();
+						var fName = $('#fname').val();
+						var lName = $('#lname').val();
+						var coName = $('#coname').val();
+						var bizClass = $('#layout-radio').val();
+				       
+			
+			        // Validate the email address:
+			        if (!validateEmail(email)) {
+			            showErrorDialogWithMessage("Your email address is not valid.");
+						return;
+			        }
+			
+			        function validateEmail(email) {
+						var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+						if( !emailReg.test(email) ) {
+							return false;
+						} else {
+							return true;
+						}
+					}
+					
+					/*         
+					// First and last name fields: make sure they're not blank
+			        if (fName === "") {
+			            showErrorDialogWithMessage("Please enter your first name.");
+			            return;
+			        }
+			        if (lName === "") {
+			            showErrorDialogWithMessage("Please enter your last name.");
+			            return;
+			        }*/
+			         		
+					//Create object for ajax request
+					var submitData = {
+							fName: fName,	
+							lName: lName,
+							email: email,
+							coName: coName,
+							bizClass: bizClass
+					};
+					
+					var JSONdata = submitData;
+					
+					showErrorDialogWithMessage("Submitting contact form.");
+					
+					//Submit to serverside via jQuery AJAX call
+					$.ajax({
+					
+						url: "http://chvdesigns.com/app-resources/app-mail.php",
+						data: JSONdata, 
+						type: 'POST',
+						success : function (data, textStatus, xhr){  
+						    console.log(textStatus);
+						    console.log(xhr);
+						    //showErrorDialogWithMessage("Reponse received from server: " + data);
+						    showErrorDialogWithMessage("Form submitted successfully.");
+							},
+						error : function (xhr, ajaxOptions, thrownError){  
+						    console.log(xhr.status);          
+						    console.log(thrownError);
+							} 
+					})
 			});
-  			
 		});
     </script>
     
@@ -208,7 +238,7 @@ THE SOFTWARE.
 	<div data-role="content" data-theme="b">
 		<div id="chvlogo">
 		</div>
-		<form>
+		<form id="contact-form" method="post" action="javascript:">
 			<div data-role="fieldcontain">
 				<label for="title">Email</label>
 				<input type="text" name="email" id="email" required/>
@@ -226,16 +256,16 @@ THE SOFTWARE.
 			<div data-role="fieldcontain">
 			    <fieldset data-role="controlgroup" data-type="horizontal">
 			     	<legend>Business Classification:</legend>
-			         	<input type="radio" name="bizclass" id="layout-radio-a" value="non-profit" checked="checked"/>
+			         	<input type="radio" name="bizclass" id="layout-radio" value="non-profit" checked="checked"/>
 			         	<label for="layout-radio-a">Non-profit</label>
-			         	<input type="radio" name="bizclass" id="layout-radio-b" value="for-profit"/>
+			         	<input type="radio" name="bizclass" id="layout-radio" value="for-profit"/>
 			         	<label for="layout-radio-b">For profit</label>
-			         	<input type="radio" name="bizclass" id="layout-radio-c" value="other"/>
+			         	<input type="radio" name="bizclass" id="layout-radio" value="other"/>
 			         	<label for="layout-radio-c">Other</label>
 			    </fieldset>
 			</div>
 			
-			<button type="" name="submit" id="contact-submit" data-theme="a">Submit</button>
+			<button type="submit" name="submit" id="contact-submit" data-theme="a">Submit</button>
 		</form>
 			
 
