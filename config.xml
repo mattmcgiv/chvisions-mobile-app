@@ -24,7 +24,7 @@ THE SOFTWARE.
 -->
 
 <!-- change the widget id to your id and update the version as appropriate -->
-<widget id="com.antym.plat2" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.antym.plat2" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 
 	<!-- Edit to match the details of your app -->
     <name>CH Visions</name>
