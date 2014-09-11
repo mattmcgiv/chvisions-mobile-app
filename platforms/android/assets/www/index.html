@@ -58,6 +58,45 @@ THE SOFTWARE.
 				    alert('Failed because: ' + message);
 				}
   			});
+  			
+  			$('#contact-submit').bind("click", function(e) {
+	            console.log("$ registered click.");
+	            //e.preventDefault();
+	            console.log("Setting var data.");
+	            var data={
+	                    email: email,
+	                    fname: fname,
+	                    lname: lname,
+	                    coname: coname           
+	                   };
+				console.log("calling sendToServer()");	                   
+	            function sendToServer() {
+	                return $.ajax({
+	                    url: 'http://chvdesigns.com/app-resources/app-mail.php',
+	                    type: "POST",
+	                    dataType: "xml",
+	                    data: data
+	                });
+	            }
+	            console.log("calling .done");
+	            sendToServer().done(handleSuccess);
+	            console.log("calling .fail");
+	            sendToServer().fail(handleError);
+	            function handleSuccess(data /* , textStatus, jqXHR */ ) {
+	                console.log("inside handleSuccess");
+	                console.log("Message successfully sent");
+	            }
+	            function handleError(data , textStatus, jqXHR  ) {
+	            	console.log("inside handleError");
+	                console.log("Error when sending the message : ");
+	                console.log(data);
+	                console.log(data.response);
+	                console.log(textStatus);
+	                console.log(jqXHR);
+	            }
+			console.log("contact submit function complete");
+			});
+  			
 		});
     </script>
     
@@ -169,7 +208,7 @@ THE SOFTWARE.
 	<div data-role="content" data-theme="b">
 		<div id="chvlogo">
 		</div>
-		<form action="http://chvdesigns.com/app-resources/app-mail.php" method="post">
+		<form>
 			<div data-role="fieldcontain">
 				<label for="title">Email</label>
 				<input type="text" name="email" id="email" required/>
@@ -196,8 +235,11 @@ THE SOFTWARE.
 			    </fieldset>
 			</div>
 			
-			<button type="submit" name="submit" value="submit" data-theme="a">Submit</button>
-			</form>
+			<button type="" name="submit" id="contact-submit" data-theme="a">Submit</button>
+		</form>
+			
+
+			
 	</div>
 </div><!-- end CONTACT -->
 
